@@ -1,0 +1,22 @@
+<section class="py-2">
+  <div class="row">
+    <div class="col-md-6 text-center">
+      <h1 class="display-3 mt-3 pt-5">
+        Software development ebook
+      </h1><p class="lead">learn software development</p>
+      <form action="/charge" method="POST">
+        <script
+          src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+          data-key="{{stripePublishableKey}}"
+          data-amount="3000"
+          data-name="How to become a fullstack developer in 24h"
+          data-description="Ebook written by John Doe"
+          data-locale="auto">
+        </script>
+      </form>
+    </div>
+    <div class="col-md-6">
+      <img src="/img/book.png" alt="" class="img-fluid">
+    </div>
+  </div>
+</section>
