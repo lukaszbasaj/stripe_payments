@@ -1,11 +1,11 @@
 {
   "name": "stripe_payment",
   "version": "1.0.0",
-  "description": "",
+  "description": "Stripe payment application for testing purposes",
   "main": "/js/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server-start": "node server/app.js"
+    "start": "node server/app.js"
   },
   "author": "",
   "license": "ISC",
